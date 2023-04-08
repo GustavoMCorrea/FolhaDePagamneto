@@ -1,0 +1,9 @@
+.coluna-50{
+    width: 20%;
+    padding-right:10px;
+}
+.linha{
+    display: flex;
+    justify-content: flex-start;
+    
+}

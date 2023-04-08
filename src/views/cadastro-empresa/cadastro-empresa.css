@@ -1,0 +1,24 @@
+.card{
+    display:grid;
+    margin: 5%;
+    padding: 0;
+    width: 90%;
+    max-width: 100%;
+    grid-template-areas:
+        "title title "
+        "body body "
+        "body body "
+    ;
+    grid-auto-rows: auto auto;
+    grid-template-rows: 80px 10px;
+    grid-auto-flow: auto auto;
+    grid-template-columns:  1fr  2fr;
+}
+
+.card-header{
+    grid-area: title;
+}
+
+.card-body{
+    grid-area: body;
+}
